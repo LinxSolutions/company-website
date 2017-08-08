@@ -1,0 +1,43 @@
+.hero {
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-body .title {
+    font-size: 54px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.hero-body .subtitle {
+    margin-bottom: 4rem;
+}
+
+.hero-body h3 {
+    font-size: 24px;
+    margin-bottom: 4rem;
+}
+
+.word, .word:focus {
+    font-weight: bold;
+    outline:0;
+}
+
+.language {
+    font-weight: bold;
+}
+
+.navbar {
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+
+.hero-body .button {
+    border-radius: 50px;
+}
+
+.navbar-item img {
+    max-height: 100%;
+}
