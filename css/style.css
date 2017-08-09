@@ -8,7 +8,12 @@
 .hero-body .title {
     font-size: 54px;
     font-family: 'Fjalla One', sans-serif;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight:normal;
+}
+
+.word, .word:focus {
+    text-decoration: underline;
 }
 
 .hero-body .subtitle {
@@ -40,4 +45,28 @@
 
 .navbar-item img {
     max-height: 100%;
+}
+
+.logo-text {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight:bold;
+    color: #242424;
+    font-size: 36px;
+}
+
+.logo {
+    margin-right:10px;
+}
+
+.play-btn {
+    position: relative;
+    bottom:0.5rem;
+}
+
+.image {
+    margin-bottom:1rem;
+}
+
+.footer a {
+    color:#242424;
 }
